@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(216, 216, 224)
+}
+.main{
+background-color: grey;
+margin: auto;
+margin-top: 5vh;
+padding: 10px;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-row-gap: 15px;
+grid-column-gap: 15px;
+width: 300px;
+height: 300px;
+}
+.board{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    height: 34px;
+    margin: auto;
+    width: 250px;
+    margin-top: 15vh;
+}
+.bulb{
+    display: inline-block;
+    background-color: rgb(8, 122, 44);
+    border: 3px solid rgb(56, 149, 85);
+    height: 34px;
+    width: 100%;
+    border-radius: 150px;
+}
+.bulbOn{
+    display: inline-block;
+    background-color: rgb(215, 226, 69);
+    border: 3px solid rgb(202, 204, 169);
+    height: 34px;
+    width: 100%;
+    border-radius: 150px;
+}
+.btn{
+    background-color: rgb(194, 212, 212);
+    width: 100%;
+    height: 100%;
+}
+.btnOn{
+    background-color: rgb(130, 207, 67);
+    width: 100%;
+    height: 100%;
+}
+.btnSelect{
+    background-color: rgb(45, 75, 173);
+    width: 100%;
+    height: 100%;
+}
+
+.win{
+    position: relative;
+    background-color: rgb(146, 141, 141);
+    margin: auto;
+    margin-top: 20vh;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    z-index: 8;
+    border: 3px solid rgb(105, 104, 104);
+    font-weight: bolder;
+letter-spacing: 2px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+.winBtn{
+margin: auto;
+height: 40px;
+width: 200px;
+background-color: rgb(219, 223, 31);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+line-height: 40px;
+font-weight: bolder;
+letter-spacing: 2px;
+font-size: 20px;
+margin-top: 20px;
+cursor: pointer;
+}
+
+.winBtn:hover{
+    background-color: rgb(233, 248, 20);
+}
+
+
+
